@@ -347,7 +347,7 @@ void merge(Kopiec & K){
  */
 int main(){ 
   cout << endl; 
-  Kopiec<int> K; // tworzymy pusty kopiec
+  Kopiec<int> K;
 
   int m = 15;
   int n = 26;
@@ -434,7 +434,7 @@ int main(){
   cout << "stworzenie drugiego kopca" << endl;  
   int w = 12;
   int l = 7;  
-  Kopiec<int> K2; // tworzymy pusty kopiec 
+  Kopiec<int> K2;
   srand(time(NULL));
   for( int i=1; i<=l; i++)
     K2.insert(rand() % (w+1));
